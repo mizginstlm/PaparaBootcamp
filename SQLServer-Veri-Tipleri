@@ -1,0 +1,13 @@
+Sql server'da  tablo oluşturmak için kullanılan veri tipleri şunlardır:
+
+- VARCHAR: VARCHAR, değişken uzunluktaki karakter dizilerini saklamak için kullanılan bir veri tipidir. Bu, veri tabanında depolanan karakter dizisinin uzunluğunun değişebileceği anlamına gelir. Örneğin, VARCHAR(50) ifadesi, en fazla 50 karakterlik bir dizi saklamak için kullanılır. Bu veri tipi, genellikle metin tabanlı verileri (örneğin, isimler, açıklamalar) saklamak için kullanılır. VARCHAR, depolanan gerçek karakter sayısına bağlı olarak değişen bir depolama boyutuna sahiptir.
+
+
+- INT: INT, tam sayıları saklamak için kullanılan bir veri tipidir. Bu, veri tabanında depolanan sayının tam sayı olacağı anlamına gelir. Örneğin, INT ifadesi, -2,147,483,648 ile 2,147,483,647 arasındaki tam sayıları saklamak için kullanılır. Bu veri tipi, genellikle sayısal verileri (örneğin, yaş, puan) saklamak için kullanılır. INT 32 bitlik bir depolama boyutuna sahiptir.
+
+- DECIMAL: DECIMAL, ondalık sayıları saklamak için kullanılan bir veri tipidir. Bu, veri tabanında depolanan sayının ondalık sayı olacağı anlamına gelir. Örneğin, DECIMAL(5,2) ifadesi, 5 basamaklı, 2 ondalık basamaklı bir sayıyı saklamak için kullanılır. Bu veri tipi, genellikle finansal verileri (örneğin, para miktarları) saklamak için kullanılır. DECIMAL, depolanan sayının tam sayı kısmı için 5 basamak ve ondalık kısmı için 2 basamak saklar. En fazla 38 basamak saklayabilir. Örneğin, DECIMAL(10, 2) ifadesi, en fazla 10 basamaklı bir sayı saklar ve ondalık kısmı 2 basamağa kadar tutar.
+
+- DATE: DATE, tarihleri saklamak için kullanılan bir veri tipidir. Bu, veri tabanında depolanan değerin tarih olacağı anlamına gelir. Örneğin, DATE ifadesi, 'YYYY-MM-DD' biçimindeki tarihleri saklamak için kullanılır. Bu veri tipi, genellikle tarih verilerini (örneğin, doğum tarihleri, etkinlik tarihleri) saklamak için kullanılır. DATE, 'YYYY-MM-DD' biçimindeki tarihleri saklar.
+
+- BIT: BIT, mantıksal değerleri yani true ve false değerlerini saklamak için kullanılan bir veri tipidir. Bu, veri tabanında depolanan değerin 0 veya 1 olacağı anlamına gelir. Örneğin, BIT ifadesi, evet/hayır, doğru/yanlış gibi mantıksal değerleri saklamak için kullanılır. Bu veri tipi, genellikle mantıksal verileri (örneğin, aktif/pasif, onaylanmış/bekleyen) saklamak için kullanılır. BIT, 0 veya 1 değerini saklar. Genellikle 1 bitlik bir depolama boyutuna sahiptir.
+
