@@ -14,9 +14,9 @@ dotnet user-secrets set 'ConnectionStrings:DefaultConnection' 'Server=localhost;
 
 #Using login and connect database by typing your password from terminal or cmd and continue to make connections is more secure(I recommend it even if I don't use it for now).
 
-```powershell
+
 Database commands that I used in macos os:
-```
+
 ```powershell
 dotnet ef migrations add [name]
 ```
