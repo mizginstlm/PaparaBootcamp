@@ -14,11 +14,15 @@ dotnet user-secrets set 'ConnectionStrings:DefaultConnection' 'Server=localhost;
 
 #Using login and connect database by typing your password from terminal or cmd and continue to make connections is more secure(I recommend it even if I don't use it for now).
 
-
+```powershell
 Database commands that I used in macos os:
-dotnet ef migrations add [name] 
+```
+```powershell
+dotnet ef migrations add [name]
+```
+```powershell
 dotnet ef database update
-
+```
 To run and build API I used "dotnet watch run" command in macos. But before these you may need to go into api directory with "cd" command.
 
 When developing in macos sometimes vscode doesnt integrate new changes so you should run and debug. Then it would work without uneccesary log errors.
